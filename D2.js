@@ -183,7 +183,7 @@ console.log(me);
 console.log("---------- esercizio 13");
 let trashbin;
 trashbin = me["skills"].pop();
-console.log(trashbin);
+console.log(trashbin, "voce eliminata");
 console.log(me);
 
 /* ESERCIZIO 14
@@ -192,7 +192,7 @@ console.log(me);
 
 console.log("---------- esercizio 14");
 const numericArray = [];
-console.log(numericArray.push(1, 2, 3, 4, 5, 6, 7, 8, 9, 10));
+console.log(numericArray.push(1, 2, 3, 4, 5, 6, 7, 8, 9, 10), "aggiungo i valori");
 console.log(numericArray);
 
 /* ESERCIZIO 15
@@ -200,6 +200,6 @@ console.log(numericArray);
 */
 
 console.log("---------- esercizio 15");
-console.log(numericArray.pop());
-console.log(numericArray.push(100));
+console.log(numericArray.pop(), "elimino l' ultimo valore");
+console.log(numericArray.push(100), "aggiungo il valore 100");
 console.log(numericArray);
